@@ -8,23 +8,19 @@ class A{
 }
 
 class B extends A{
-
+   B obj = new B();
+  obj.meth();
 
    public String meth(){
     return "Invoking method from class B";
 
   }
+
+  obj.meth();
     
 
 }
 
 public class Main {
- public static void main(String[] args) {
-        B obj = new B();
-        System.out.println(obj.meth());  // 3rd task
-   
-        System.out.println(obj.meth());  // 5 task
-  
-  
-}
+ 
 }
